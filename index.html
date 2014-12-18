@@ -11,18 +11,30 @@
 
     </head>
     <body>
-        <h1>Chicago Languages</h1>
-        <p>Enter a Chicago neighborhood to find out the predominant non-English language spoken</p>
+
+        <style>
+            h1 {
+                text-align: center;
+            }
+            
+            #buttonAndText {
+                margin-top:30px;
+            }
+
+        </style>
+        <div class="container">
+            <h1>Chicago Languages</h1>
+            <p style="color:blue;">Enter a Chicago neighborhood to find out the predominant non-English language spoken</p>
 
 
-                <div class="input-group">
-                    <input type="text" class="form-control">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Submit</button>
-                    </span>
-                </div><!-- /input-group -->
+            <div class="input-group" id="buttonAndText">
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+                    <button class="btn btn-warning" type="button">Submit</button>
+                </span>
+            </div><!-- /input-group -->
 
-
+        </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
